@@ -9,7 +9,6 @@ tax = subtotal * 0.06
 if subtotal >= 50:
     if time == 1 or time == 2:
         discount = subtotal * 0.1
-        tax = subtotal * 0.06
         total = subtotal - discount + tax
         print(f'Discount amount: {discount}')
     else:
