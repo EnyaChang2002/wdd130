@@ -1,0 +1,28 @@
+body {
+    background-color: #FFC0CB;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+img {
+    max-width: 800px;
+}
+.title {
+    font-size: 200%;
+    margin: 0.01%;
+}
+.six {
+    font-size: 0.6em;
+}
+.eight {
+    font-weight: bold;
+}
+.black {
+    color: black;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 0.01%;
+}
+#title:hover {
+    color: black;
+}
