@@ -12,7 +12,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover{
-    color: greenyellow;
+    color: #fff3b0;
 }
 .home-title {
     color: white;
@@ -34,23 +34,23 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: rgb(143, 174, 143);
+    background-color: #fff3b0;
 }
 body {
-    background-color: rgb(143, 174, 143);
+    background-color: #fff3b0;
     font-family: Inconsolata, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: darkgreen;
+    background-color: #9e2a2b;
 }
 nav a:hover {
-    background-color: darkgreen;
+    background-color: #9e2a2b;
 }
 .book, .join {
-    background-color: darkgreen;
+    background-color: darkgoldenrod;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -59,11 +59,11 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: greenyellow;
-    color: white;
+    background-color: #fff3b0;
+    color: darkred;
 }
 .msg {
-    background-color: darkgreen;
+    background-color: #9e2a2b;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -76,7 +76,7 @@ nav a:hover {
     padding-bottom: 15px;
 }
 footer {
-    background-color: darkgreen;
+    background-color: #9e2a2b;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
@@ -86,7 +86,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: greenyellow;
+    color: #fff3b0;
 }
 .icon {
     width: 80px;
@@ -103,6 +103,9 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
+}
+.logo {
+    width: 80px;
 }
 footer .social img {
     padding-top: 15px;
@@ -133,6 +136,9 @@ nav {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-box {
     grid-column: 1/4;
@@ -184,7 +190,7 @@ nav {
     grid-row: 6/7;
 }
 footer {
-    background-color: #6f7364;
+    background-color: #e09f3e;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
@@ -192,26 +198,26 @@ footer {
     align-items: center;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #e09f3e;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #e09f3e;
 }
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
 .msg {
-    background-color: #6f7364;
+    background-color: #e09f3e;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #e09f3e;
 }
 .mountains {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #e09f3e;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
