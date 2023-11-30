@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+.img2 { background-image: url("https://images.pexels.com/photos/414249/pexels-photo-414249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+.img3 { background-image: url("https://images.pexels.com/photos/2121799/pexels-photo-2121799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+.img4 { background-image: url("https://images.pexels.com/photos/158399/fox-wild-nature-water-158399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+.img5 { background-image: url("https://images.pexels.com/photos/271932/pexels-photo-271932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+.img6 { background-image: url("https://images.pexels.com/photos/59842/fox-red-fox-red-portrait-59842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
